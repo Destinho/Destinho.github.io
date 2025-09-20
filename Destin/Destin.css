@@ -1,0 +1,277 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    flex-wrap: wrap;
+}
+
+body {
+    margin: 10px;
+    background-color: white;
+}
+
+header {
+    margin-top: 0px;
+    background-image: url(des.jpg);
+    background-position: center;
+    background-size: cover;
+    color: white;
+    padding: 40px;
+    border-radius: 80px;
+
+}
+
+nav {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 40px;
+    padding: 20PX;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    margin-top: 0px;
+
+}
+
+nav a {
+    text-decoration: none;
+    margin-top: 0px;
+    margin-left: 3px;
+    color: white;
+    margin-right: 0px;
+}
+
+nav p button {
+    margin-top: 10px;
+
+}
+
+.T {
+    text-align: center;
+}
+
+span {
+    color: #007BFF;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #007BFF;
+    color: white;
+    padding: 0.7rem 1.5rem;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+.btn-outline {
+    background-color: transparent;
+    color: #007BFF;
+    border: 2px solid #007BFF;
+}
+
+.btn-outline:hover {
+    background-color: #007BFF;
+    color: white;
+}
+
+.Acueil {
+    padding: 30px;
+    margin: 10px;
+    gap: 20px;
+    display: flex;
+    border-radius: 40px;
+    color: rgb(6, 6, 6);
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    border-radius: 80px;
+    box-shadow: 0 0 5px 5px;
+    flex-wrap: wrap;
+}
+
+img {
+    width: 200px;
+}
+
+.AcueilText {
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 10px;
+}
+
+.AcueilImage {
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 10px;
+}
+
+.TextOnly {
+    padding: 100px;
+    text-align: center;
+    align-items: center;
+    background-image: url(E.jpg);
+    background-position: center;
+    background-size: cover;
+    color: white;
+    font-size: large;
+    border-radius: 80px;
+    display: flex;
+    gap: 20px;
+}
+
+.tx {
+    border-radius: 10px;
+    box-shadow: 10px 5px 10px 5px;
+
+}
+
+.skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+    text-align: center;
+    padding: 40px;
+    margin-top: 10px;
+    border-radius: 10px;
+    box-shadow: 10px 5px 10px 5px;
+}
+
+.skill-item {
+    background-color: #007BFF;
+    ;
+    color: white;
+    border-radius: 10px;
+    padding: 1rem 1.2rem;
+    text-align: center;
+    width: 120px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.skill-item:hover {
+    transform: translateY(-5px);
+}
+
+.skill-item i {
+    font-size: 2rem;
+    color: #eff3f7;
+    margin-bottom: 0.5rem;
+}
+
+/* Projects */
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+    padding: 40px;
+    text-align: center;
+    align-items: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 10px 5px 10px 5px;
+
+}
+
+.project-card {
+    background-color: #007BFF;
+    ;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+    color: white;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+}
+
+.project-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.project-info {
+    padding: 1rem;
+}
+
+.project-info p {
+    font-size: 0.95rem;
+    margin-bottom: 1rem;
+}
+
+/* Contact */
+.contact-container {
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    padding: auto;
+}
+
+.contact-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.contact-container input,
+contact-container textarea {
+    padding: 0.75rem;
+    border: 1px solid #070707;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+
+/* Footer */
+footer {
+    background-color: #fff;
+    text-align: center;
+    padding: 2rem 0;
+
+}
+
+footer .reseaux {
+    margin-top: 1rem;
+}
+
+.reseaux {
+    padding: 0 10px;
+    font-size: 20px;
+    transition: transform 0, 3s ease;
+
+}
+
+.reseaux a.whatsapp {
+    color: #25D366;
+}
+
+a {
+    gap: 20px;
+}
+
+.reseaux a.instagram {
+    color: #E4405F;
+}
+
+.reseaux a.linkedin {
+    color: #007BFF;
+}
+
+.reseaux a.twiter {
+    color: #1DA1F2;
+}
+
+footer .socials a:hover {
+    color: #007BFF;
+}
