@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfolio de Ir Destinho, développeur web frontend et backend." />
+  <link rel="stylesheet" href="portefolio.css">
+  <title>Ir Destinho - Développeur Web</title>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+  />
+</head>
+<body>
+    <header>
+        <nav>
+          <h1><a href="#"><i>Destinho le developpeur</i></a></h1>  
+            <a href="#">Acueil</a>
+            <a href="#">Competences</a>
+            <a href="#">Outils</a>
+            <a href="#">Contacts</a>
+        </nav>
+    </header>
+    <section>
+     <div class="container home-container">
+       <div class="home-content">
+          <h1>Bonjour, je suis Ir Destinho <span>Développeur Web</span></h1>
+          <p>Je crée des sites modernes, interactifs et performants.</p>
+          <a href="#projects" class="btn">Voir mes projets</a>
+      </div>
+      <div class="home-image">
+          <img src="IR.jpg" alt="Photo de moi">
+      </div>
+    </div>
+    </section>
+    
+    
+  <section id="about" class="about section">
+    <div class="container about-container">
+      <div class="about-image">
+        <img src="des.jpg" alt="Photo profil">
+      </div>
+      <div class="about-data">
+        <h2>À propos de moi</h2>
+        <p>Je suis développeur web spécialisé en front-end/back-end, j’aime résoudre des problèmes 
+          techniques et créer des interfaces utilisateur agréables.</p>
+        <div class="about-buttons">
+          <a href="CV.pdf" class="btn">Voir mon CV</a>
+          <a href="#contact" class="btn btn-outline">Me contacter</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills" class="skills section">
+    <div class="container skills-container">
+      <h2>Compétences</h2>
+      <div class="skills-list">
+        <div class="skill-item">
+          <i class="fab fa-html5"></i>
+          <span>HTML5</span>
+        </div>
+        <div class="skill-item">
+          <i class="fab fa-css3-alt"></i>
+          <span>CSS3</span>
+        </div>
+        <div class="skill-item">
+          <i class="fab fa-js"></i>
+          <span>JavaScript</span>
+        </div>
+        <div class="skill-item">
+          <i class="fab fa-php"></i>
+          <span>PHP</span>
+        </div>
+        <div class="skill-item">
+          <i class="fab fa-node"></i>
+          <span>Node.js</span>
+        </div>
+        <div class="skill-item">
+          <i class="fas fa-database"></i>
+          <span>SQL / Databases</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="projects section">
+    <div class="container projects-container">
+      <h2>Mes projets</h2>
+      <div class="projects-grid">
+        <div class="project-card">
+          <img src="projet1.png" alt="Projet 1">
+          <div class="project-info">
+            <h3>Mon premier projet</h3>
+            <p>Un site web e-commerce construit avec HTML, CSS, JS.</p>
+            <a href="#" target="_blank">Voir le projet</a>
+          </div>
+        </div>
+        <div class="project-card">
+          <img src="projet2.png" alt="Projet 2">
+          <div class="project-info">
+            <h3>Mon deuxième projet</h3>
+            <p>Application web backend avec PHP & MySQL.</p>
+            <a href="#" target="_blank">Voir le projet</a>
+          </div>
+        </div>
+        <div class="project-card">
+          <img src="projet3.png" alt="Projet 3">
+          <div class="project-info">
+            <h3>Mon troisième projet</h3>
+            <p>Dashboard interactif utilisant JavaScript.</p>
+            <a href="#" target="_blank">Voir le projet</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact section">
+    <div class="container contact-container">
+      <h2>Contact</h2>
+      <form id="contact-form">
+        <input type="text" id="contact-name" placeholder="Nom" required>
+        <input type="email" id="contact-email" placeholder="Email" required>
+        <textarea id="contact-message" rows="5" placeholder="Ton message" required></textarea>
+        <button type="submit" class="btn">Envoyer</button>
+      </form>
+    </div>
+  </section>
+
+  <footer class="footer section">
+    <div class="container footer-container">
+      <p>© 2025 Ir Destinho. Nous sommes à votre service.</p>
+      <div class="socials">
+        <a href="#"><i class="fab fa-github"></i></a>
+        <a href="#"><i class="fab fa-linkedin"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+      </div>
+  </footer>
+
+  <script src="portefolio.js"></script>
+    
+</body>
+</html>
