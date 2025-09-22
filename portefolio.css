@@ -117,7 +117,7 @@ img {
     padding: 100px;
     text-align: center;
     align-items: center;
-    background-image: url(E.jpg);
+    background-image: url(des.jpg);
     background-position: center;
     background-size: cover;
     color: white;
@@ -276,3 +276,4 @@ a {
 footer .socials a:hover {
     color: #007BFF;
 }
+
