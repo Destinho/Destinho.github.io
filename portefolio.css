@@ -1,4 +1,3 @@
-/* Reset basique */
 * {
     padding: 0px;
     margin: 0px;
@@ -52,7 +51,7 @@ nav p button {
     text-align: center;
 }
 
-span {
+#nav {
     color: #007BFF;
 }
 
@@ -147,8 +146,6 @@ img {
 
 .skill-item {
     background-color: #007BFF;
-    ;
-    color: white;
     border-radius: 10px;
     padding: 1rem 1.2rem;
     text-align: center;
